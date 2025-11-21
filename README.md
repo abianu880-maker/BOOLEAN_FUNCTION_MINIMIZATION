@@ -1,4 +1,4 @@
-# BOOLEAN_FUNCTION_MINIMIZATION
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/48097305-de0f-4c75-93a6-b5afd3a9458c" /># BOOLEAN_FUNCTION_MINIMIZATION
 
 **AIM:**
 
@@ -35,12 +35,27 @@ Hardware – PCs, Cyclone II , USB flasher
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+Developed by:Abilasha RegisterNumber:25015770
+module ex2 (
+    input  wire A,
+    input  wire B,
+    input  wire C,
+    input  wire D,
+    output wire F
+);
+
+assign F = (~A & B) | (C & D) | (A & ~D);
+
+endmodule
+
+
 
 
 **RTL realization**
+<img width="986" height="772" alt="Screenshot 2025-11-21 182943" src="https://github.com/user-attachments/assets/548119f7-ef51-49c9-bffe-cc044bd82881" />
 
 **Output:**
+<img width="1305" height="304" alt="Screenshot 2025-11-21 183133" src="https://github.com/user-attachments/assets/a6395503-aefa-441b-868c-6a094e492225" />
 
 **RTL**
 
