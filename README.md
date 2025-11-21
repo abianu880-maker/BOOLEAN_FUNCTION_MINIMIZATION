@@ -41,10 +41,15 @@ Developed by:Abilasha RegisterNumber:25015770
 
 module ex2 (
     input  wire A,
-    input  wire B,  
+    
+    input  wire B,
+    
     input  wire C,
+    
     input  wire D,
+    
     output wire F
+    
     );
 assign F = (~A & B) | (C & D) | (A & ~D);
 endmodule
